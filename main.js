@@ -15,13 +15,13 @@ givenName = "Tim";
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A: NaN
+// A: "Tim"
 
 
 // 4.
 // What is `greeting` set to?
 var greeting = "Hello, how are you? " + givenName;
-// A: undefined
+// A: "Hello, how are you? Tim"
 
 
 // 5.
@@ -29,7 +29,7 @@ var greeting = "Hello, how are you? " + givenName;
 var high = 50;
 var low  = 10;
 var math = high - low;
-// A: undefined
+// A: 40
 
 
 // 6.
@@ -44,7 +44,7 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 var born = 1984;
 var today = 2017;
-// A: var age = today - born;
+// A: var age = (today - born);
 
 
 // 8.
@@ -130,7 +130,7 @@ var f = (NaN == NaN);
 // Use the variable `thirsty` as part of your conditional expression.
 // A: if (thirsty)
 var thirsty = true;
-
+if (thirsty)
 {
   console.log("I'm parched!");
 } else {
@@ -147,7 +147,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A: "True!"
+// A: "False!"
 
 
 // 22.
@@ -186,7 +186,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A: "False!"
+// A: "Truth!"
 
 
 // 26.
